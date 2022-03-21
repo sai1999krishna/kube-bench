@@ -1,2 +1,9 @@
 ---
 ## Version-specific settings that override the values in cfg/config.yaml
+target_mapping:
+  "foo":
+    - "master"
+    - "node"
+    - "controlplane"
+    - "etcd"
+    - "policies"
